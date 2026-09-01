@@ -1,7 +1,6 @@
 ---
 name: improve-codebase-architecture
 description: Survey a repository for concrete architecture and module-deepening opportunities, then present a prioritized report without changing production code.
-disable-model-invocation: true
 ---
 
 # Improve Codebase Architecture
