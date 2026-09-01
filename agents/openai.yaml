@@ -1,0 +1,6 @@
+interface:
+  display_name: "Improve Codebase Architecture"
+  short_description: "Survey architecture improvement opportunities"
+  default_prompt: "Use $improve-codebase-architecture to survey this repository for architecture improvements."
+policy:
+  allow_implicit_invocation: false
