@@ -1,6 +1,6 @@
 ---
 name: improve-codebase-architecture
-description: Survey a repository for concrete architecture and module-deepening opportunities, then present a prioritised report without changing production code.
+description: Survey a whole repository for concrete architecture and module-deepening opportunities and present a prioritised, read-only report. Use when the user asks for a repository-wide architecture review or a shortlist of improvement candidates. Not for designing one named module or interface (use codebase-design) or for implementing a candidate.
 ---
 
 # Improve codebase architecture
@@ -8,7 +8,8 @@ description: Survey a repository for concrete architecture and module-deepening 
 Produce an evidence-backed shortlist of architecture improvements. This skill
 is read-only with respect to production code and configuration, and it never
 implements a candidate. The only permitted write is the report at a path the
-user specifies. Do not turn an exploratory review into an unsolicited refactor.
+user or their standing instructions specify. Do not turn an exploratory review
+into an unsolicited refactor.
 
 ## Survey the as-built system
 
@@ -40,4 +41,4 @@ material to record.
 
 Let the user choose a candidate. Stop after the report unless they explicitly
 request follow-up design or implementation. Do not write a report file unless
-the user supplies its location.
+the user or their standing instructions supply a report location.
